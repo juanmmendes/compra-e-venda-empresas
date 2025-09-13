@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>Compra e Venda de Empresas em 2025 | Marinho Mendes Sociedade de Advogados</title>
+  <meta name="description" content="Guia completo e institucional sobre compra e venda de empresas (M&A) em 2025: etapas, due diligence, valuation, estrutura jurídica, riscos e contratos. Conteúdo informativo, sem promessa de resultado, em conformidade com o Provimento 205/2021 da OAB." />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+  <link rel="canonical" href="https://www.marinhomendes.adv.br/compra-e-venda-de-empresas-2025" />
+  
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Compra e Venda de Empresas em 2025 | Marinho Mendes" />
+  <meta property="og:description" content="Etapas, due diligence, valuation, contratos e riscos em operações de M&A. Conteúdo informativo conforme as normas da OAB." />
+  <meta property="og:url" content="https://www.marinhomendes.adv.br/compra-e-venda-de-empresas-2025" />
+  <meta property="og:site_name" content="Marinho Mendes Sociedade de Advogados" />
+  <meta property="og:image" content="/assets/og-mm-ma-2025.jpg" /> <!-- Substitua por sua imagem OG 1200x630px -->
+  <meta property="og:image:alt" content="Profissionais analisando documentos de due diligence e valuation." />
+  <meta name="twitter:card" content="summary_large_image" />
+  
+  <!-- Preload/Fonts (opcional): substitua por fontes do seu brand book -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      /* Nova paleta: "Midnight Navy & Gold" para credibilidade */
+      --bg: #0b1020;            /* fundo principal (navy profundo) */
+      --panel: #0d152b;         /* painéis */
+      --card: #0f1b34;          /* cards */
+      --muted: #9fb0c6;         /* textos auxiliares */
+      --text: #e6edf3;          /* texto principal */
+      --brand: #eab308;         /* dourado institucional */
+      --brand-600: #ca8a04;     /* dourado escuro */
+      --accent: #60a5fa;        /* azul de apoio */
+      --warning: #f59e0b;       /* amber para avisos */
+      --border: #1e293b;        /* bordas */
+      --radius-2xl: 1.25rem;
+      --radius-xl: .875rem;
+      --shadow-lg: 0 22px 40px rgba(0,0,0,.4);
+      --shadow-md: 0 12px 24px rgba(0,0,0,.28);
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 80% 0%, #0b1830 0%, var(--bg) 60%);
+      color: var(--text);
+      line-height:1.6;
+    }
+    a{color: var(--accent); text-decoration:none}
+    a:hover{opacity:.9}
+    img{max-width:100%; height:auto; display:block}
+    .container{width:min(1120px, 92vw); margin-inline:auto}
+
+    /* Header */
+    .topbar{position:sticky; top:0; z-index:50; backdrop-filter:saturate(160%) blur(8px); background:rgba(8,13,27,.7); border-bottom:1px solid var(--border)}
+    .nav{display:flex; flex-wrap:wrap; align-items:center; gap:1rem; padding:.75rem 0; position:relative;}
+    .nav > *{min-width:0}
+    .brand{display:flex; align-items:center; gap:.75rem; color:var(--text); text-decoration:none; white-space:nowrap}
+    .brand .logo{width:42px; height:42px; border-radius:12px; background:linear-gradient(145deg, #1d283a, #0b1324); display:grid; place-items:center; box-shadow:var(--shadow-md)}
+    .brand .logo span{font-weight:700; color:var(--brand)}
+    .brand h1{font-size:1rem; margin:0; letter-spacing:.5px}
+    .nav ul{display:flex; gap:1rem; list-style:none; margin:0; padding:0; justify-content:center; align-items:center}
+    .nav a.navlink{color:var(--text); font-weight:600; opacity:.95}
+    .nav a.navlink:hover{opacity:1}
+    .cta-btn{background:linear-gradient(135deg, var(--brand), var(--brand-600)); color:#07131a; border:none; padding:.7rem 1rem; border-radius:.75rem; font-weight:700; box-shadow: var(--shadow-md); white-space:nowrap;}
+    .cta-btn:hover{transform:translateY(-1px)}
+
+    /* Mobile menu */
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      color: var(--brand);
+      cursor: pointer;
+      margin-left: 1rem;
+    }
+    @media (max-width: 960px){
+          .nav {
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+          }
+          .brand {
+            justify-content: center;
+            width: 100%;
+            margin-bottom: 0.5rem;
+          }
+          .brand h1 {
+            font-size: 1.15rem;
+            text-align: center;
+            width: 100%;
+            white-space: normal;
+            line-height: 1.3;
+            margin: 0;
+          }
+          .logo {
+            width: 80px !important;
+            height: 32px !important;
+          }
+          .menu-toggle, .nav ul {
+            display: none !important;
+          }
+          .cta-btn {
+            margin: 0 auto;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            border-radius: 1.2rem;
+            box-shadow: var(--shadow-lg);
+            width: 100%;
+            max-width: 340px;
+            text-align: center;
+            display: block;
+            margin-top: 0.5rem;
+          }
+    }
+    @media (max-width: 600px){
+      .brand h1{font-size:1rem;}
+      .cta-btn{font-size:1rem; padding:.8rem 1rem; max-width:98vw;}
+      .logo{width:60px !important; height:24px !important;}
+    }
+
+    /* Hero */
+    .hero{position:relative; padding: clamp(3rem, 7vw, 6rem) 0; overflow:hidden}
+    .grid{display:grid; grid-template-columns: 1.1fr .9fr; gap:2rem; align-items:center}
+    .kicker{display:inline-flex; gap:.5rem; align-items:center; padding:.35rem .6rem; border:1px solid var(--border); border-radius:999px; color:var(--muted); font-size:.85rem}
+    .kicker .dot{width:8px; height:8px; background:var(--brand); border-radius:999px}
+    .hero h2{font-size:clamp(1.6rem, 3.5vw, 2.4rem); line-height:1.25; margin:.75rem 0}
+    .hero p{max-width:60ch; color: var(--muted)}
+    .badges{display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1rem}
+    .badge{padding:.35rem .6rem; background:#0e1729; border:1px solid var(--border); border-radius:.6rem; color:var(--muted); font-size:.8rem}
+    .hero-card{background:linear-gradient(180deg,#0a1323,#0a1527); border:1px solid var(--border); border-radius:var(--radius-2xl); padding:1rem; box-shadow:var(--shadow-lg)}
+    .hero-card .imgbox{position:relative; aspect-ratio:16/9; overflow:hidden; border:none; background:none;}
+    .img-caption{position:absolute; bottom:0; left:0; right:0; padding:.65rem .8rem; background: linear-gradient(180deg, transparent, rgba(0,0,0,.55)); font-size:.85rem; color:#d1d5db}
+
+    /* Sections */
+    section{padding: clamp(2.5rem, 6vw, 4rem) 0; border-top:1px solid var(--border)}
+    h3.section-title{font-size: clamp(1.25rem, 2.8vw, 1.75rem); margin:0 0 1rem}
+    .twocol{display:grid; grid-template-columns: 1fr 1fr; gap:2rem}
+    .card{background: linear-gradient(180deg,#0a1323,#0a1527); border:1px solid var(--border); border-radius: var(--radius-xl); padding:1rem}
+    .list{margin:0; padding-left:1.2rem}
+    .list li{margin:.35rem 0}
+
+    .steps{ display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1rem }
+    .step{border:1px solid var(--border); border-radius:var(--radius-xl); padding:1rem; background:#0c1427; display:flex; flex-direction:column}
+    .step .num{width:28px; height:28px; display:grid; place-items:center; background: #12223a; border:1px solid var(--border); color:var(--brand); border-radius:8px; font-weight:700; margin-bottom:.5rem}
+
+    /* Accordions */
+    .accordion{border:1px solid var(--border); border-radius:var(--radius-xl); overflow:hidden; background: linear-gradient(180deg, #0d172e, #0b1428)}
+    .accordion details{border-bottom:1px solid var(--border)}
+    .accordion details:last-child{border-bottom:none}
+    .accordion summary{cursor:pointer; padding:1rem 1.25rem; font-weight:700; list-style:none; position:relative; color:#e9eef6}
+    .accordion summary::-webkit-details-marker{display:none}
+    .accordion summary::after{content:'+'; position:absolute; right:1rem; top:50%; transform:translateY(-50%); font-size:1.25rem; color:var(--accent); transition:transform .2s ease}
+    .accordion details[open] summary::after{content:'2'; color:var(--brand);}
+    .accordion .content{padding:0 1.25rem 1rem 1.25rem; border-left:3px solid var(--brand); margin-left:.25rem}
+
+    /* Image placeholders (sizes specified in HTML comments) */
+    .img-ph{position:relative; border:1px dashed #334155; background:#0b1324; color:#94a3b8; display:grid; place-items:center; text-align:center}
+    .img-ph small{opacity:.85}
+
+    /* Contact */
+    .contact-grid{display:grid; grid-template-columns: 1.2fr .8fr; gap:1rem}
+    form{display:grid; gap:.75rem}
+    label{font-weight:700}
+    input, textarea, select{width:100%; padding:.9rem; border-radius:.6rem; border:1px solid var(--border); background:#0b1324; color:var(--text)}
+    .helper{font-size:.85rem; color:var(--muted)}
+    .checkbox{display:grid; grid-template-columns:auto 1fr; align-items:start; gap:.65rem; padding:.75rem; border:1px solid var(--border); border-radius:.6rem; background:#0d172b}
+    .checkbox input{margin-top:.2rem}
+    .checkbox label{line-height:1.45}
+    .social{display:flex; flex-wrap:wrap; gap:.75rem; align-items:center}
+    .social a{display:inline-flex; align-items:center; gap:.5rem; padding:.4rem .6rem; border:1px solid var(--border); border-radius:.6rem; background:#0b1324}
+    .social svg{width:18px; height:18px; fill:#c9d4e3}
+
+    /* Tables */
+    .cred-table{width:100%; border-collapse:separate; border-spacing:0; overflow:hidden; border-radius:var(--radius-xl); box-shadow:var(--shadow-md); border:1px solid var(--border)}
+    .cred-table th, .cred-table td{padding:.85rem 1rem; text-align:left}
+    .cred-table thead th{background:#0e1a32; color:#e8ecf2; font-weight:800}
+    .cred-table tbody tr{background:#0b1428}
+    .cred-table tbody tr:nth-child(even){background:#0c162c}
+    .cred-table tbody td{color:#dbe3ee}
+
+    /* Footer */
+    footer{border-top:1px solid var(--border); padding:2rem 0; color:#9aa6b2}
+    .grid-3{display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:1rem}
+    .legal{font-size:.85rem}
+
+    /* Responsive */
+    @media (max-width: 960px){
+      .grid, .twocol, .contact-grid{grid-template-columns:1fr}
+      .nav ul{display:none}
+    }
+    @media (min-width: 1100px){
+      .steps{grid-template-columns: repeat(5, minmax(0, 1fr));}
+    }
+  </style>
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Marinho Mendes Sociedade de Advogados",
+    "url": "https://marinhomendes.adv.br/",
+    "logo": "https://marinhomendes.adv.br/favicon-512.png",
+    "image": "https://marinhomendes.adv.br/assets/og-mm.jpg",
+    "telephone": "+55-19-3209-0417",
+    "email": "adm@marinhomendes.adv.br",
+    "priceRange": "Consulta mediante agendamento",
+    "areaServed": "Brasil",
+    "sameAs": [
+      "https://www.facebook.com/marinhomendesadv",
+      "https://www.instagram.com/marinhomendes.adv",
+      "https://www.linkedin.com/company/14030512/"
+    ],
+    "address": [{
+      "@type": "PostalAddress",
+      "streetAddress": "Av. José Rocha Bonfim, 214, Bloco J – Sala 228 – Ed. Milão, Praça Capital, Loteamento Center Santa Genebra",
+      "addressLocality": "Campinas",
+      "addressRegion": "SP",
+      "postalCode": "13080-650",
+      "addressCountry": "BR"
+    },{
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Antônio Nelson Barbosa, 93 – Jardim do Bosque",
+      "addressLocality": "Hortolândia",
+      "addressRegion": "SP",
+      "postalCode": "13186-231",
+      "addressCountry": "BR"
+    }],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+      "opens": "09:00",
+      "closes": "18:00"
+    }],
+    "isAcceptingNewPatients": true,
+    "founder": "Marinho Mendes Sociedade de Advogados",
+    "foundingLocation": "São Paulo, Brasil",
+    "byAppointmentOnly": true,
+    "makesOffer": {
+      "@type": "Offer",
+      "name": "Assessoria jurídica em compra e venda de empresas (M&A)",
+      "availabilityEnds": "2025-12-31",
+      "url": "https://www.marinhomendes.adv.br/compra-e-venda-de-empresas-2025"
+    }
+  }
+  </script>
+  
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quais são as etapas fundamentais de uma transação de compra e venda de empresas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Preparação (sell-side readiness), due diligence, valuation, negociação e contratos (LOI, SPA/QPA, R&W, indenizações) e, por fim, o pós-fechamento com integração e auditorias complementares."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual a diferença entre adquirir quotas/ações e realizar trespasse de ativos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Na aquisição de participações, o comprador assume, como regra, os passivos e obrigações da sociedade; no trespasse, adquire-se o estabelecimento (bens e direitos), com alocação contratual da sucessão de passivos conforme legislação e desenho do negócio."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais passivos podem ser herdados em uma aquisição?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dívidas fiscais e tributárias, obrigações trabalhistas e previdenciárias, processos judiciais e administrativos, além de passivos ambientais e regulatórios setoriais."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Por que a due diligence é indispensável?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sem uma auditoria adequada, o comprador pode assumir responsabilidades inesperadas e perdas de valor, comprometendo o preço, as garantias e a viabilidade da integração pós-fechamento."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#conteudo" style="position:absolute;left:-9999px;top:auto;">Pular para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="container nav" role="navigation" aria-label="Navegação principal">
+      <a class="brand" href="https://marinhomendes.adv.br/" target="_blank" rel="noopener" aria-label="Ir para o site institucional">
+        <div class="logo" aria-hidden="true" style="background:none; box-shadow:none; width:120px; height:40px; border-radius:0; display:flex; align-items:center; justify-content:center;">
+          <img src="img/LogoBranca.png" alt="Logo Marinho Mendes" style="max-width:100%; max-height:100%; object-fit:contain; filter:drop-shadow(0 2px 8px #0008);" />
+        </div>
+        <h1>Marinho Mendes Sociedade de Advogados</h1>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-controls="main-menu" aria-expanded="false">&#9776;</button>
+      <ul id="main-menu">
+        <li><a class="navlink" href="#guia">Guia</a></li>
+        <li><a class="navlink" href="#amparo">Por que advogado</a></li>
+        <li><a class="navlink" href="#etapas">Etapas</a></li>
+        <li><a class="navlink" href="#riscos">Riscos</a></li>
+        <li><a class="navlink" href="#faq">FAQ</a></li>
+        <li><a class="navlink" href="#sobre">Sobre</a></li>
+      </ul>
+      <a class="cta-btn" href="#contato" aria-label="Ir para o formulário de contato">Agendar atendimento</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- HERO -->
+    <section class="hero container" id="inicio">
+      <div class="grid">
+        <div>
+          <span class="kicker"><span class="dot"></span> Contrato Administrativo</span>
+          <h2>Compra e Venda de Empresas em 2025: guia completo com etapas, due diligence, valuation e contratos</h2>
+          <p>
+            Entenda, de forma institucional e objetiva, como estruturar operações de M&A com segurança:
+            preparação societária, auditoria multidisciplinar, avaliação econômica, alocação de riscos e instrumentos contratuais adequados — tudo em conformidade com as normas da OAB (Provimento 205/2021).
+          </p>
+          <div class="badges" aria-label="Pontos de destaque">
+            <span class="badge">M&A • 2025</span>
+            <span class="badge">Due Diligence</span>
+            <span class="badge">Valuation</span>
+            <span class="badge">Contratos</span>
+            <span class="badge" style="border-color:rgba(234,179,8,.25); color:#f5e6b3">Amparo jurídico é essencial</span>
+          </div>
+          <div style="margin-top:1rem; display:flex; gap:.75rem; flex-wrap:wrap">
+            <a class="cta-btn" href="#contato">Solicitar contato</a>
+            <a class="cta-btn" href="#guia" style="margin-left:0;">Ler o guia</a>
+          </div>
+          <p class="helper" style="margin-top:.75rem">Material informativo. <strong>Recomenda-se acompanhamento jurídico</strong> em todas as fases. Não constitui promessa de resultado ou oferta de serviços fora dos parâmetros éticos.</p>
+        </div>
+        <aside class="hero-card" aria-label="Imagem destacada">
+          <div class="imgbox" style="aspect-ratio:16/9; overflow:hidden; border:none; background:none;">
+            <img src="img/analise_credito.png" alt="Imagem do tema" style="width:100%; height:100%; object-fit:cover; display:block;" />
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- GUIA (CONTEÚDO PRINCIPAL) -->
+    <section id="guia" class="container">
+      <h3 class="section-title">O que é a compra e venda de empresas e por que importa?</h3>
+      <div style="width:100%;">
+        <div class="card" style="width:100%;">
+          <p>A compra e venda de empresas — operações de <em>Mergers &amp; Acquisitions</em> (M&amp;A) — é a estratégia pela qual se transfere controle, participação societária ou ativos entre sociedades, com objetivos econômicos definidos e impacto jurídico relevante.</p>
+          <p><strong>Motivações frequentes:</strong></p>
+          <ul class="list">
+            <li>Expansão orgânica e geográfica do mercado-alvo;</li>
+            <li>Consolidação competitiva e ganho de escala;</li>
+            <li>Diversificação de portfólio e mitigação de riscos;</li>
+            <li>Sucessão e saída planejada de sócios;</li>
+            <li>Reestruturação societária e otimização tributária.</li>
+          </ul>
+          <p>A estrutura pode envolver compra de quotas/ações, transferência de ativos (<strong>trespasse</strong>) ou reorganizações como fusão, cisão e incorporação. <strong>O respaldo jurídico</strong> alinha cada desenho contratual ao apetite de risco e aos objetivos estratégicos do cliente.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- BLOCO DE CREDIBILIDADE / AMPARO JURÍDICO -->
+    <section id="amparo" class="container">
+      <h3 class="section-title">Por que o amparo jurídico é fundamental em M&amp;A (2025)</h3>
+      <div style="width:100%;">
+        <div class="card" style="width:100%;">
+          <p>Entenda por que contar com <strong>advogado especializado</strong> é indispensável nas operações de compra e venda de empresas — da due diligence aos contratos, passando por compliance, mitigação de riscos e integração pós-fechamento.</p>
+          <ol class="list">
+            <li><strong>Mitigar riscos e garantir segurança jurídica.</strong> Due diligence para identificar passivos ocultos, contratos problemáticos e contingências (trabalhistas, fiscais, regulatórias). Preparação prévia da empresa (sell-side) para corrigir falhas e proteger valuation.</li>
+            <li><strong>Estruturação jurídica da transação.</strong> Elaboração de NDA, LOI/MoU, SPA/QPA e contratos acessórios com clareza e validade jurídica; desenho da estrutura ideal (quotas/ações, ativos, fusão, incorporação ou cisão) segundo objetivos e apetite a risco.</li>
+            <li><strong>Conformidade legal e aprovações.</strong> Orientação em exigências de órgãos reguladores (ex.: CADE), compliance trabalhista, fiscal e concorrencial, inclusive em setores regulados ou com investidores estrangeiros.</li>
+            <li><strong>Pilar estratégico na negociação.</strong> Condução técnica da negociação, alocação de riscos (R&W, indenizações, escrow, ajustes) e suporte à integração: governança, contratos e continuidade operacional.</li>
+            <li><strong>Especialização para PMEs.</strong> Proteção jurídica e execução eficiente em operações menores ou familiares, com acompanhamento de ponta a ponta.</li>
+          </ol>
+        </div>
+      </div>
+      <div style="margin-top:1rem" class="card">
+        <table class="cred-table" aria-label="Resumo de benefícios e impactos">
+          <thead>
+            <tr><th>Benefício</th><th>Impacto na transação</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Redução de riscos</td><td>Identificação de passivos ocultos e contingências, evitando surpresas legais.</td></tr>
+            <tr><td>Estrutura jurídica segura</td><td>Contratos bem fundamentados e coerentes com o risco mapeado.</td></tr>
+            <tr><td>Conformidade legal</td><td>Atendimento a obrigações fiscais, regulatórias e antitruste.</td></tr>
+            <tr><td>Estratégia ativa</td><td>Negociação eficiente e integração pós-venda orientada.</td></tr>
+            <tr><td>Proteção para PMEs</td><td>Acompanhamento técnico em operações menores ou familiares.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CENÁRIO 2025 -->
+    <section class="container">
+      <h3 class="section-title">Cenário de M&amp;A no Brasil em 2025</h3>
+      <div class="twocol">
+        <div class="card">
+          <p>Oportunidades destacam-se em pequenas e médias empresas (sucessão familiar), startups com tecnologia escalável e setores como agronegócio, saúde, educação, energia e e-commerce. <strong>O apoio jurídico especializado é determinante</strong> para mapear riscos, orientar estruturas e assegurar conformidade desde a origem da negociação.</p>
+          <p class="helper">Leituras do nosso blog:</p>
+          <ul class="list">
+            <li><a href="https://www.marinhomendes.adv.br/blog/compra-e-venda-de-empresas-em-2025/" target="_blank" rel="noopener">Compra e venda de empresas em 2025 – Guia completo</a></li>
+            <li><a href="https://www.marinhomendes.adv.br/blog/por-que-voce-precisa-de-um-advogado-na-compra-e-venda-de-empresas/" target="_blank" rel="noopener">Por que você precisa de um advogado na compra e venda de empresas?</a></li>
+            <li><a href="https://marinhomendes.adv.br/blog" target="_blank" rel="noopener">Blog do escritório</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <!-- PIE/CHART PLACEHOLDER IMAGE
+            Ideal: 1600x900px (16:9), PNG/JPG &lt; 240KB
+          -->
+          <div style="aspect-ratio:16/9; overflow:hidden; border:none; background:none; border-radius:var(--radius-xl);">
+            <img src="img/calculo_porcentagem.png" alt="Gráfico setorial" style="width:100%; height:100%; object-fit:cover; display:block;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ETAPAS -->
+    <section id="etapas" class="container">
+      <h3 class="section-title">Etapas fundamentais da transação</h3>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h4>Preparação (sell-side readiness)</h4>
+          <p>Organização societária, contábil e fiscal; saneamento de pendências; padronização documental para reduzir contingências e elevar o múltiplo.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h4>Due diligence</h4>
+          <p>Auditoria jurídica, contábil, fiscal e trabalhista para identificação de passivos, obrigações e riscos regulatórios.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h4>Valuation</h4>
+          <p>FCD, múltiplos de EBITDA, comparáveis, valor patrimonial e goodwill, orientando earn-outs, escrow e ajustes.</p>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <h4>Negociação e Contratos</h4>
+          <p>LOI/MoU, SPA/QPA, não concorrência, confidencialidade, acordo de sócios. Cláusulas críticas: R&amp;W, indenizações (cap/floor), CPs, MAC, escrow, price adjustment.</p>
+        </div>
+        <div class="step">
+          <div class="num">5</div>
+          <h4>Pós-fechamento e integração</h4>
+          <p>Apuração de variáveis (earn-out), integração operacional e de compliance; regularizações e auditorias finais.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODALIDADES & TRESSPASSE -->
+    <section class="container">
+      <div class="twocol">
+        <div class="card">
+          <h3 class="section-title">Modalidades jurídicas de aquisição</h3>
+          <ul class="list">
+            <li><strong>Quotas/Ações</strong>: aquisição de participações, com assunção, como regra, dos passivos e obrigações.</li>
+            <li><strong>Trespasse</strong>: transferência do estabelecimento, com gestão contratual de sucessão de passivos.</li>
+            <li><strong>Fusão, incorporação e cisão</strong>: reestruturações com impactos contábeis, fiscais e regulatórios.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="section-title">Trespasse e fundo de comércio</h3>
+          <p><strong>Trespasse</strong> é a transferência do estabelecimento empresarial (bens corpóreos e incorpóreos).</p>
+          <ul class="list">
+            <li>Notificação de credores e transparência com stakeholders;</li>
+            <li>Regularização contratual, cessões e anuências;</li>
+            <li>Transferência de alvarás, licenças e inscrições.</li>
+          </ul>
+          <p><strong>Fundo de comércio (goodwill)</strong>: valor intangível decorrente de marca, base de clientes, know-how, ponto e processos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASPECTOS LEGAIS & RISCOS -->
+    <section id="riscos" class="container">
+      <h3 class="section-title">Aspectos legais, fiscais e trabalhistas</h3>
+      <div class="twocol">
+        <div class="card">
+          <p>Na aquisição, o comprador pode herdar dívidas fiscais/tributárias, obrigações trabalhistas/previdenciárias, contenciosos e passivos ambientais. Boas práticas incluem:</p>
+          <ul class="list">
+            <li>Delimitar objeto e regimes de sucessão;</li>
+            <li>Estipular garantias e indenizações com limites e franquias;</li>
+            <li>Usar escrow, ajustes de preço e auditorias pós-fechamento.</li>
+          </ul>
+          <p class="helper">Referências: CC arts. 1.142 a 1.149 (estabelecimento e trespasse); CLT arts. 10 e 448 (sucessão); Lei 6.404/1976; Lei 12.529/2011 (CADE).</p>
+        </div>
+        <div class="card">
+          <!-- TEAM/EXPERTISE IMAGE PLACEHOLDER
+            Ideal: 1200x1200px (1:1), WEBP/JPG &lt; 200KB
+          -->
+          <div style="aspect-ratio:1/1; overflow:hidden; border:none; background:none; border-radius:var(--radius-xl);">
+            <img src="img/aperto_de_mãos .png" alt="Foto da equipe" style="width:100%; height:100%; object-fit:cover; display:block;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (Accordion) -->
+    <section id="faq" class="container">
+      <h3 class="section-title">Perguntas frequentes</h3>
+      <p class="helper">Abaixo, respostas gerais com fins informativos. Cada caso demanda análise própria e não há promessa de resultado.</p>
+      <div class="accordion">
+        <details>
+          <summary>Quais documentos são normalmente solicitados na due diligence?</summary>
+          <div class="content">
+            <p>Societários (contratos/alterações), fiscais, contábeis, trabalhistas e previdenciários, contratos com clientes/fornecedores, licenças e registros, propriedade intelectual, ambiental e contencioso.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Quanto tempo leva uma transação típica?</summary>
+          <div class="content">
+            <p>Depende do porte e da complexidade: pode variar de semanas (operações simples) a vários meses (estruturadas e com aprovações regulatórias).</p>
+          </div>
+        </details>
+        <details>
+          <summary>Quando o CADE é acionado?</summary>
+          <div class="content">
+            <p>Quando presentes os critérios de notificação da Lei 12.529/2011 e regulamentação aplicável, considerando faturamento/grupo econômico e impactos concorrenciais.</p>
+          </div>
+        </details>
+        <details>
+          <summary>É possível mitigar riscos trabalhistas e fiscais?</summary>
+          <div class="content">
+            <p>Sim. Por meio de desenho contratual (R&amp;W, indenizações, cap/floor, franquias), auditorias complementares, escrow e mecanismos de ajuste de preço.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- SOBRE O ESCRITÓRIO -->
+    <section id="sobre" class="container">
+      <h3 class="section-title">Sobre o escritório</h3>
+      <div class="twocol">
+        <div class="card">
+          <p>O <strong>Marinho Mendes Sociedade de Advogados</strong> atua com enfoque técnico e postura ética, prestando assessoria jurídica criteriosa em operações societárias e contratuais, inclusive compra e venda de empresas (M&amp;A). Nosso atendimento é <strong>mediante agendamento</strong>, com foco na análise personalizada de cada caso.</p>
+          <ul class="list">
+            <li>Abordagem multidisciplinar: societário, tributário, trabalhista e regulatório;</li>
+            <li>Gestão de riscos com governança e compliance;</li>
+            <li>Redação contratual consistente, alinhada às contingências mapeadas;</li>
+            <li>Comunicação clara e documentação organizada.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <!-- ABOUT/INSTITUTIONAL IMAGE PLACEHOLDER
+            Ideal: 1400x936px (~3:2), WEBP/JPG &lt; 220KB
+          -->
+          <div style="aspect-ratio:3/2; overflow:hidden; border:none; background:none; border-radius:var(--radius-xl);">
+            <img src="img/018-1-marinho-mendes-advogados.jpg" alt="Foto institucional" style="width:100%; height:100%; object-fit:cover; display:block;" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="container">
+      <h3 class="section-title">Contato e agendamento</h3>
+      <div class="contact-grid">
+        <div class="card">
+          <form id="leadForm" aria-label="Formulário de contato">
+            <div>
+              <label for="nome">Nome completo</label>
+              <input id="nome" name="nome" required autocomplete="name" />
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div>
+              <label for="telefone">Telefone/WhatsApp</label>
+              <input id="telefone" name="telefone" type="tel" inputmode="tel" placeholder="(19) 9 7410-0605" />
+            </div>
+            <div>
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto" required>
+                <option value="" disabled selected>Selecione</option>
+                <option>Compra e venda de empresas (M&amp;A)</option>
+                <option>Due diligence</option>
+                <option>Valuation (aspectos jurídicos)</option>
+                <option>Contratos e estruturação</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div>
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva brevemente seu caso (sem dados sensíveis)"></textarea>
+              <p class="helper">Ao enviar, você concorda com o tratamento dos dados para contato, conforme a LGPD.</p>
+            </div>
+            <div class="checkbox">
+              <input id="lgpd" type="checkbox" required />
+              <label for="lgpd">Declaro que li e concordo com o processamento de dados pessoais para retorno do contato. O envio deste formulário não cria relação advogado-cliente.</label>
+            </div>
+            <button class="cta-btn" type="submit">Enviar</button>
+            <p id="formStatus" class="helper" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <aside class="card" aria-label="Informações do escritório">
+          <h4>Marinho Mendes Sociedade de Advogados</h4>
+          <p><strong>Site institucional:</strong> <a href="https://marinhomendes.adv.br/" target="_blank" rel="noopener">marinhomendes.adv.br</a></p>
+          <p><strong>Blog:</strong> <a href="https://www.marinhomendes.adv.br/blog" target="_blank" rel="noopener">marinhomendes.adv.br/blog</a></p>
+          <p><strong>E-mail:</strong> <a href="mailto:adm@marinhomendes.adv.br">adm@marinhomendes.adv.br</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/5519974100605?text=Olá%2C+gostaria+de+agendar+um+atendimento" target="_blank" rel="noopener">+55 (19) 97410-0605</a></p>
+          <p><strong>Telefones:</strong> (19) 3845-4946 | (19) 3209-0417</p>
+          <hr style="border-color:var(--border);opacity:.4"/>
+          <p><strong>Campinas:</strong><br/>Av. José Rocha Bonfim, 214, Bloco J – Sala 228 – Ed. Milão, Praça Capital, Loteamento Center Santa Genebra, CEP 13080-650. <a href="https://maps.google.com/?q=Av.+José+Rocha+Bonfim,+214,+Bloco+J+–+Sala+228+–+Ed.+Milão,+Praça+Capital,+Campinas+SP" target="_blank" rel="noopener">Ver mapa</a></p>
+          <p><strong>Hortolândia:</strong><br/>Rua Antônio Nelson Barbosa, 93 – Jardim do Bosque, CEP 13186-231. <a href="https://maps.google.com/?q=Rua+Ant%C3%B4nio+Nelson+Barbosa,+93+–+Jardim+do+Bosque,+Hortol%C3%A2ndia+SP" target="_blank" rel="noopener">Ver mapa</a></p>
+          <p><strong>Horário:</strong> Atendimento mediante agendamento (sem atendimento espontâneo).</p>
+          <p><strong>Redes sociais:</strong></p>
+          <div class="social" aria-label="Redes sociais">
+            <a href="https://www.facebook.com/marinhomendesadv" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 5.01 3.66 9.17 8.44 9.95v-7.04H7.9v-2.91h2.54V9.41c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.87h2.78l-.44 2.91h-2.34v7.04C18.34 21.24 22 17.08 22 12.07z"/></svg>
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.instagram.com/marinhomendes.adv" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5a5 5 0 1 0 .001 10.001A5 5 0 0 0 12 7zm6.5-.9a 1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2zM12 9.5A2.5 2.5 0 1 1 9.5 12 2.5 2.5 0 0 1 12 9.5z"/></svg>
+              <span>Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/company/14030512/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.64h.05c.53-1.01 1.82-2.07 3.75-2.07 4.01 0 4.75 2.64 4.75 6.07V21h-4v-5.33c0-1.27-.03-2.91-1.77-2.91-1.78 0-2.05 1.39-2.05 2.82V21H9z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://wa.me/5519974100605?text=Ol%C3%A1%2C+gostaria+de+agendar+um+atendimento" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3.9A10 10 0 0 0 3.5 17.6L2 22l4.5-1.5A10 10 0 1 0 20 3.9zM6.6 18.3l-.3.1.2-.3c-.1.1.1.1.1.2zM17.3 14.8c-.2.6-1 1-1.6 1.1-.4.1-1 .1-1.6-.1-.3-.1-.7-.2-1.2-.5-2.1-1.1-3.5-3.3-3.6-3.5-.1-.2-.9-1.2-.9-2.3 0-1.1.6-1.6.9-1.8.2-.2.5-.3.8-.3h.2c.2 0 .4 0 .5.4.2.6.6 1.9.6 2-.1.1-.1.2-.2.3-.1.1-.3.3-.4.4-.2.2-.3.3-.1.6.2.3.8 1.3 1.8 2.1 1.2 1 2.1 1.3 2.4 1.5.2.1.5.1.6-.1.2-.3.7-.8.9-1 .1-.1.2-.1.3-.1.1 0 .2 0 .3.1.2.1 1.4.7 1.6.8.2.1.3.1.3.2-.1.4-.2.9-.4 1.1z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container grid-3">
+      <div>
+        <strong>Marinho Mendes Sociedade de Advogados</strong>
+        <p class="legal">Este conteúdo tem caráter meramente informativo, sem menção a casos concretos, resultados ou captação indevida. Em conformidade com o Provimento 205/2021 e o Código de Ética e Disciplina da OAB.</p>
+      </div>
+      <div>
+        <p class="legal">Atendimento mediante agendamento. O envio de mensagens por este site não cria, por si, relação cliente-advogado.</p>
+        <p class="legal">© <span id="ano"></span> Marinho Mendes. Todos os direitos reservados.</p>
+      </div>
+      <div>
+        <p class="legal">Políticas: <a href="#" aria-disabled="true">Privacidade</a> • <a href="#" aria-disabled="true">Cookies</a></p>
+        <p class="legal">Canais oficiais: <a href="mailto:adm@marinhomendes.adv.br">adm@marinhomendes.adv.br</a> • <a href="https://wa.me/5519974100605" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Ano automático no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+
+    // Menu responsivo
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('main-menu');
+    menuToggle.addEventListener('click', function() {
+      const isOpen = menu.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', isOpen);
+    });
+    // Fecha menu ao clicar em link
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if(window.innerWidth <= 960){
+          menu.classList.remove('open');
+          menuToggle.setAttribute('aria-expanded', false);
+        }
+      });
+    });
+
+    // Formulário (demo local). Integração: altere para seu endpoint (ex.: FormSubmit, n8n, CRM)
+    const form = document.getElementById('leadForm');
+    const statusEl = document.getElementById('formStatus');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      statusEl.textContent = 'Enviando…';
+      const data = Object.fromEntries(new FormData(form).entries());
+
+      try{
+        // Exemplo de envio (substitua pela sua rota):
+        // await fetch('/api/contato', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(data)});
+        await new Promise(r => setTimeout(r, 700)); // simulação
+        statusEl.textContent = 'Mensagem enviada. Em breve retornaremos para agendar.';
+        form.reset();
+      }catch(err){
+        console.error(err);
+        statusEl.textContent = 'Não foi possível enviar agora. Tente novamente.';
+      }
+    });
+
+    // Navegação suave para compatibilidade
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (ev) => {
+        const id = a.getAttribute('href');
+        if(id.length > 1){
+          const target = document.querySelector(id);
+          if(target){
+            ev.preventDefault();
+            target.scrollIntoView({behavior:'smooth', block:'start'});
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
