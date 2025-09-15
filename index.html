@@ -159,7 +159,11 @@
     .accordion summary{cursor:pointer; padding:1rem 1.25rem; font-weight:700; list-style:none; position:relative; color:#e9eef6}
     .accordion summary::-webkit-details-marker{display:none}
     .accordion summary::after{content:'+'; position:absolute; right:1rem; top:50%; transform:translateY(-50%); font-size:1.25rem; color:var(--accent); transition:transform .2s ease}
-    .accordion details[open] summary::after{content:'2'; color:var(--brand);}
+    .accordion details[open] summary::after{
+    content: '−' !important;  
+    color: var(--accent) !important;
+    transform: none !important;
+    }
     .accordion .content{padding:0 1.25rem 1rem 1.25rem; border-left:3px solid var(--brand); margin-left:.25rem}
 
     /* Image placeholders (sizes specified in HTML comments) */
@@ -200,6 +204,8 @@
     @media (min-width: 1100px){
       .steps{grid-template-columns: repeat(5, minmax(0, 1fr));}
     }
+
+
   </style>
 
   <!-- Structured Data (JSON-LD) -->
